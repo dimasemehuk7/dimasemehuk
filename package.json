@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "grunt",
     "start": "npm --prefix ./webapp install ./webapp && npm --prefix ./app install ./app && npm run build && node ./app/server.js"
   },
   "repository": {
