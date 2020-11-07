@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "grunt",
-    "prestart": "npm --prefix ./webapp install ./webapp && npm --prefix ./app install ./app",
-    "start": "npm run build && node ./app/server.js"
+    "start": "npm --prefix ./webapp install ./webapp && npm --prefix ./app install ./app && npm run build && node ./app/server.js"
   },
   "repository": {
     "type": "git",
